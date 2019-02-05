@@ -77,13 +77,8 @@ nav {
 	z-index: 1;
 	position: absolute;
 	height: 8%;
-	pointer-events: none;
 }
 
 #pages ul li ul li a {
 	height: 100%;
-}
-
-#pages li:hover a {
-	pointer-events: auto;
 }
