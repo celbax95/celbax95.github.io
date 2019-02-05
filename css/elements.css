@@ -119,11 +119,11 @@
 }
 
 #contenu a {
-	color: rgb(0,0,200);
+	color: rgb(0,20,150);
 }
 
 #contenu a:visited {
-	color: rgb(0,0,200);
+	color: rgb(0,20,150);
 }
 
 #contenu li {
@@ -133,9 +133,20 @@
 	margin-bottom: 10px;
 }
 
+#contenu li ul li {
+	font-size: 16px;
+	margin-left: 5%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+
 @media screen and (max-width: 800px) {
 	#contenu li {
 		font-size: 11px;
+	}
+	#contenu li ul li {
+		font-size: 9px;
 	}
 }
 
