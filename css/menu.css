@@ -70,15 +70,20 @@ nav {
 
 #pages a {
 	width: 100%;
-	height: 100%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	text-decoration: none;
-}
-
-#pages a {
 	z-index: 1;
 	position: absolute;
 	height: 8%;
+	pointer-events: none;
+}
+
+#pages ul li ul li a {
+	height: 100%;
+}
+
+#pages li:hover a {
+	pointer-events: auto;
 }
