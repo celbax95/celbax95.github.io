@@ -23,7 +23,6 @@
   src: url("./../fonts/ADAM.otf");
 }
 
-
 #titre {
 	width: 35%;
 	margin: auto;
@@ -72,8 +71,7 @@
 	border-radius: 5% / 2%;
 
 	margin-bottom: 5%;
-	padding: 30px 100px;
-	padding-bottom: 60px;
+	padding: 60px 100px;
 
 	transition: 0.5s;
 }
