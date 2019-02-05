@@ -1,0 +1,156 @@
+
+#contenu p {
+	margin: auto;
+	width: 80%;
+	font-size: 17px;
+	text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+	#contenu p {
+		font-size: 10px;
+	}
+}
+
+#contenu .centerTxt {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+	#contenu .centerTxt {
+		width: 100%;
+		text-align: justify;
+	}
+}
+
+#contenu .line {
+	width: 100%;
+	height: 1px;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	background-color: black;
+}
+
+#contenu img {
+	width: 400px;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.8);
+	margin-bottom: 10px;
+}
+
+#contenu .centerImg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 800px) {
+	#contenu .centerImg {
+		width: 90%;
+	}
+}
+#contenu .txtLImgR {
+	overflow: auto;
+	height: auto;
+}
+
+#contenu .txtLImgR p {
+	float: left;
+	width: 45%;
+}
+
+#contenu .txtLImgR img {
+	width: 45%;
+	max-width: 500px;
+	float: right;
+}
+
+@media screen and (max-width: 800px) {
+
+	#contenu .txtLImgR {
+		padding-bottom: 10px;
+	}
+
+	#contenu .txtLImgR p {
+		float: none;
+		width: inherit;
+		margin-bottom: 20px;
+	}
+
+	#contenu .txtLImgR img {
+		float: none;
+		width: 90%;
+		display: block;
+		margin: auto;
+	}
+}
+
+#contenu h2 {
+	font-family: "Arial", Gadget, sans-serif;
+	padding-left: 10%;
+	padding-bottom: 5px;
+	font-size: 25px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+	#contenu h2 {
+		font-size: 15px;
+	}
+}
+
+#contenu h3 {
+	font-family: "Arial", Gadget, sans-serif;
+	padding-left: 15%;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+	#contenu h3 {
+		font-size: 13px;
+	}
+}
+
+#contenu a {
+	color: rgb(0,0,200);
+}
+
+#contenu a:visited {
+	color: rgb(0,0,200);
+}
+
+#contenu li {
+	font-size: 18px;
+	margin-left: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+	#contenu li {
+		font-size: 11px;
+	}
+}
+
+#contenu .space1 {
+	height: 20px;
+}
+#contenu .space2 {
+	height: 40px;
+}
+#contenu .space3 {
+	height: 60px;
+}
+#contenu .space4 {
+	height: 80px;
+}
+#contenu .space5 {
+	height: 100px;
+}

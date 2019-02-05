@@ -1,0 +1,43 @@
+#pages li ul {
+	display: none;
+}
+
+#pages li:hover ul li:hover:not(:last-child) {
+	background-color: #454545;
+}
+
+#pages li:hover p {
+	position: absolute;
+}	
+
+#pages li:hover ul {
+	width: 100%;
+	height: calc(100% + 1px);
+	display: block;
+	position: relative;
+	left: 100%;
+	top: -0.5px;
+}
+#pages li:hover ul li:not(:last-child) {
+	margin-top: 0;
+	background-color: #212121;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	top: 0px;
+}
+#pages li:hover ul li p {
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: "Open Sans";
+	font-size: 0.9vw;
+}
+@media screen and (max-width: 800px) {
+	#pages li:hover ul li p {
+		font-size: 1.7vw;
+	}
+}

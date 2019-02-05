@@ -1,0 +1,84 @@
+nav {
+	float: left;
+	position: fixed;
+	background-color: black;
+	width: 200px;
+	height: 100%;
+	transition: 1s;
+	max-width: 20%;
+	min-width: 12.5%;
+	top: 0px;
+	transition: 0.8s;
+	transition-delay: 0.1s;
+	transition-timing-function: ease;
+}
+
+#pages {
+	background-color: black;
+	width: 100%;
+	height: 70%;
+}
+
+#pages ul {
+	width: 100%;
+	height: 90%;
+}
+
+#pages li:first-child {
+	margin-top: 70%;
+}
+@media screen and (max-height: 640px) {
+	#pages li:first-child {
+		margin-top: 25%;
+	}
+}
+
+#pages li {
+	width: 100%;
+	height: 13%;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-top: 1px solid white;
+	transition: 0.4s;
+}
+
+#pages li:hover:not(:last-child) {
+	background-color: #2b2b2b;
+}
+
+#pages li:last-child {
+	height: 2%;
+}
+
+#pages li p {
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: "Open Sans";
+	font-size: 1vw;
+	transition: 0.4s;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+@media screen and (max-width: 800px) {
+	#pages li p {
+		font-size: 2vw;
+	}
+}
+
+#pages a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-decoration: none;
+}
+
+#pages a {
+	z-index: 1;
+	position: absolute;
+	height: 8%;
+}

@@ -1,0 +1,90 @@
+#page {
+	z-index: 0;
+	position: absolute;
+	
+	width: calc(100% - 200px);
+	float: right;
+	right: 0px;
+	height: 100%;
+	min-width: calc(100% - 20%);
+	max-width: calc(100% - 12.5%);
+}
+
+@media screen and (max-width: 700px) {
+	#page {
+		min-width: none;
+		max-width: none;
+		width: calc(100% - 5%);
+	}
+}
+
+@font-face {
+  font-family: "Lulo Clean";
+  src: url("./../fonts/ADAM.otf");
+}
+
+
+#titre {
+	width: 35%;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	background-color: rgba(0,0,0,0.4);
+	box-shadow: 0 0 1.5vw black;
+	padding: 1.5%;
+	border: 0.25vw solid white;
+	border-radius: 1vw;
+
+	color: white;
+	font-family: "Lulo Clean";
+	text-align: center;
+
+	transition: 1s;
+}
+
+@media screen and (max-width: 800px) {
+	#titre {
+		width: 60%;
+	}
+}
+
+#titre h1 {
+	font-size: 2vw;
+	margin-bottom: 5%;
+}
+
+#titre h2 {
+	font-size: 1.5vw;
+	margin-bottom: 0.5%;
+}
+
+#contenu {
+	width: 85%;
+	max-width: 1200px;
+	height: auto;
+
+	overflow: auto;
+
+	background-color: rgba(220,220,220,0.9);
+	margin: auto;
+
+	border: 1px solid black;
+	border-radius: 5% / 2%;
+
+	margin-bottom: 5%;
+	padding: 30px 100px;
+	padding-bottom: 60px;
+
+	transition: 0.5s;
+}
+
+
+@media screen and (max-width: 1200px) {
+	#contenu {
+		padding: 30px 5%;
+	}
+}
+
+#contenu:hover {
+	background-color: rgba(220,220,220,1);
+}
